@@ -1,0 +1,29 @@
+# ---- build output ----
+build/
+Debug/
+Release/
+Objects/
+Listings/
+*.o
+*.d
+*.elf
+*.hex
+*.bin
+*.map
+*.axf
+*.crf
+*.dep
+
+# ---- Keil user settings ----
+# NOTE: .uvprojx is the project file and MUST be committed.
+#       .uvoptx / .uvguix.* are per-user settings and must be ignored.
+*.uvguix.*
+*.uvoptx
+*.scvd
+JLinkLog.txt
+
+# ---- editors / OS ----
+.vscode/
+.idea/
+Thumbs.db
+.DS_Store
